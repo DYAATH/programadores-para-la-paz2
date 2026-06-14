@@ -1,0 +1,10 @@
+Resultados de las pruebas de rutas GET:
+
+1. http://localhost:3000
+   Al acceder a esta ruta raíz, el servidor responde mostrando en pantalla el texto "Servidor activo". Es la página principal o punto de entrada.
+
+2. http://localhost:3000/saludo
+   Al ingresar aquí, el servidor procesa la solicitud específica y devuelve el mensaje estático "Hola comunidad".
+
+3. http://localhost:3000/mensaje/juan
+   Esta ruta utiliza un parámetro dinámico (:nombre). Al escribir "juan" al final de la URL, el servidor captura ese valor a través de 'req.params.nombre' y responde dinámicamente en pantalla: "Hola Jhonatan".
