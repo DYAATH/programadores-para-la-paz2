@@ -1,0 +1,16 @@
+Bitácora de ejecución del servidor Express:
+
+1. ¿Qué ocurre cuando ejecutas node server.js?
+El intérprete de Node.js lee el archivo, reserva los recursos asignados dentro de la memoria RAM del sistema operativo e inicializa la aplicación web de Express para que se quede corriendo de fondo en un bucle de eventos infinito (Event Loop).
+
+2. ¿Qué mensaje aparece en la terminal?
+Aparece el mensaje configurado en el callback del listener de la aplicación:
+"Servidor ejecutándose en puerto 3000"
+
+3. ¿Qué sucede cuando visitas la ruta /estado?
+El navegador envía una petición de tipo HTTP GET hacia el puerto 3000 de la dirección local. El enrutador de Express procesa la solicitud en la ruta correspondiente y el servidor devuelve de inmediato una respuesta con código de estado 200 OK y una estructura de datos JSON limpia que contiene:
+
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}

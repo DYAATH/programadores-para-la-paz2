@@ -1,0 +1,7 @@
+Estructura y Componentes de un Entorno Servidor:
+
+- Sistema operativo: Es el software base de bajo nivel (como Linux/Ubuntu) encargado de administrar directamente los recursos de hardware, gestionar la memoria del servidor y otorgar el entorno para ejecutar las aplicaciones.
+- Node.js: Entorno de ejecución para JavaScript construido con el motor V8 de Chrome, que permite interpretar y correr código JS en el lado del servidor de forma asíncrona, rápida y eficiente.
+- Aplicación server.js: Archivo de código fuente escrito por el programador donde se configuran los middlewares, se importan las dependencias, se establecen las rutas de negocio y se define cómo responderá la API.
+- Puerto: Un punto de conexión lógico o interfaz numérica específica (como el puerto 3000) que utiliza el sistema operativo para canalizar y diferenciar el tráfico de datos entrante de una aplicación web concreta.
+- Logs: Archivos históricos de texto generados automáticamente por el sistema que registran eventos cronológicos, visitas, acciones de usuarios y errores críticos de código, sirviendo como herramienta vital para la auditoría y depuración.
