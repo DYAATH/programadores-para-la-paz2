@@ -1,0 +1,15 @@
+Análisis de la prueba en la ruta GET /reportes:
+
+Al realizar una consulta GET a http://localhost:3000/reportes después de haber enviado datos mediante POST, el servidor responde devolviendo un array (una lista) en formato JSON que contiene de forma organizada todos los reportes que se han registrado desde que se encendió el servidor.
+
+Cada reporte dentro de la lista incluye automáticamente un identificador único numérico incremental ('id') generado por el código, además del 'tipo' y la 'descripcion'. La respuesta esperada luce así:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Nota: Como los datos se guardan en un arreglo de JavaScript (en la memoria RAM), si el servidor se apaga o se reinicia, la lista volverá a quedar vacía ([]) hasta que se vuelvan a registrar nuevas peticiones POST.
