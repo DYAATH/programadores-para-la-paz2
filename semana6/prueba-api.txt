@@ -1,0 +1,11 @@
+Descripción de la prueba en la ruta POST /registro:
+
+Al enviar una petición POST a http://localhost:3000/registro con el JSON de prueba que contiene el nombre "Maria" y el mensaje "Hola comunidad", el servidor procesa los datos gracias al middleware express.json(). 
+
+La API responde exitosamente devolviendo un objeto JSON con un estado de confirmación y los mismos datos que fueron enviados por el cliente. La respuesta exacta del servidor es:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
