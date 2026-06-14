@@ -1,0 +1,7 @@
+5 Prácticas esenciales de seguridad para plataformas digitales comunitarias:
+
+1. No exponer datos personales: Encriptar y limitar la visualización de datos sensibles de la ciudadanía (correos, identificaciones, teléfonos) para evitar el acoso o la filtración de información.
+2. Proteger credenciales: Implementar políticas estrictas de contraseñas robustas y obligar el uso de autenticación de dos factores (2FA) para los administradores de la plataforma.
+3. Usar conexiones seguras: Instalar y forzar certificados SSL/TLS (HTTPS) para que toda la información que viaja entre el navegador del ciudadano y el servidor vaya cifrada.
+4. Registrar accesos (Logging): Mantener bitácoras de eventos automáticas que registren quién, cuándo y desde dónde se accedió o modificó información sensible en el sistema.
+5. Limitar acceso a información sensible (Principio de menor privilegio): Asignar roles restringidos en la plataforma, asegurando que un colaborador solo tenga acceso a los módulos estrictamente necesarios para su labor.
