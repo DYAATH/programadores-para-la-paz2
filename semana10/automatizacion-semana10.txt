@@ -1,0 +1,19 @@
+Flujo de automatización
+
+Evento:
+Un usuario registra un nuevo reporte en facebook
+
+Acción:
+n8n detecta el nuevo reporte en facebook y envía una notificación a un grupo de Telegram del equipo administrador.
+
+Mensaje:
+"Nuevo reporte recibido en facebook. Ingresa al panel de administración para revisarlo."
+
+Información que NO debe enviarse:
+
+- Nombre completo del usuario.
+- Documento de identidad.
+- Dirección.
+- Número de teléfono.
+- Correo electrónico.
+- Contraseñas o cualquier dato sensible.

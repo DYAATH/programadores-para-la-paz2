@@ -1,0 +1,16 @@
+Backlog - facebook
+
+Prioridad 1
+Como ciudadano quiero publicar un reporte comunitario para informar a la comunidad sobre una situación importante.
+
+Prioridad 2
+Como administrador quiero recibir una notificación en Telegram cuando un usuario reporte una publicación para revisarla rápidamente.
+
+Prioridad 3
+Como ciudadano quiero comentar en las publicaciones para participar y aportar información.
+
+Prioridad 4
+Como usuario quiero editar mi perfil para mantener actualizada mi información.
+
+Prioridad 5
+Como administrador quiero consultar el historial de reportes para hacer seguimiento a los casos.

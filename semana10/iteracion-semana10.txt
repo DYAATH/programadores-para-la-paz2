@@ -1,0 +1,12 @@
+Las dos tareas que realizaría primero son:
+
+1. Permitir publicar reportes comunitarios.
+2. Enviar una notificación al administrador cuando exista un nuevo reporte.
+
+Estas tareas son las más importantes porque permiten que la comunidad informe situaciones y que los administradores puedan actuar rápidamente.
+
+Para mí una tarea está terminada cuando:
+
+- Funciona correctamente.
+- Fue probada sin errores importantes.
+- Quedó registrada en Git con su respectivo commit.
