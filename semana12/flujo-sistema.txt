@@ -1,0 +1,5 @@
+1. Registro de Causa: Un líder comunitario o ciudadano ingresa a la plataforma y crea una causa completando un título y una descripción clara del problema.
+2. Almacenamiento en Base de Datos: La información de la causa se guarda de forma segura en la base de datos (PostgreSQL/Supabase) con un identificador único.
+3. Recolección de Apoyos: Los miembros de la comunidad ingresan a la causa activa y registran su apoyo de manera rápida con un solo clic (aportando únicamente los datos mínimos necesarios).
+4. Conteo y Consolidación: El sistema actualiza en tiempo real el contador de apoyos vinculados a esa causa específica.
+5. Generación del Documento: Al alcanzar una meta o solicitarlo el creador, el backend compila los datos, genera automáticamente un documento formal en PDF con la petición y los apoyos sumados, listo para ser descargado y presentado ante las autoridades.

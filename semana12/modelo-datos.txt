@@ -1,0 +1,19 @@
+Modelo de Datos - Petición en 3 Clics
+
+--- Entidades ---
+
+1. Entidad: Causa
+- id (UUID / Entero, Llave Primaria): Identificador único de la causa.
+- titulo (Texto): Nombre o título representativo de la petición.
+- descripcion (Texto): Detalle de la problemática y la solicitud formal.
+- fecha (Timestamp): Fecha y hora de creación.
+
+Explicación: Esta entidad sirve para registrar y almacenar la información principal de cada una de las iniciativas, necesidades o peticiones que la comunidad decide promover de forma colectiva.
+
+2. Entidad: Apoyo
+- id (UUID / Entero, Llave Primaria): Identificador único del registro de apoyo.
+- causa_id (UUID / Entero, Llave Foránea): Relación directa con la causa que se está apoyando.
+- nombre (Texto): Nombre (o pseudónimo/iniciales para privacidad) de quien apoya.
+- fecha (Timestamp): Fecha y hora en la que se registró el apoyo.
+
+Explicación: Esta entidad sirve para llevar el control y registro de qué personas respaldan cada causa, permitiendo cuantificar el apoyo ciudadano de manera organizada y segura.

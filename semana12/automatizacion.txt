@@ -1,0 +1,10 @@
+Flujo de Automatización de Notificaciones
+
+- Evento que activa la automatización:
+  Un ciudadano registra un nuevo apoyo en una causa existente.
+
+- Mensaje que se envía:
+  "¡Nuevo apoyo registrado! La causa '[Título de la Causa]' ha recibido un nuevo respaldo. ¡Sigamos sumando firmas para lograr el cambio!"
+
+- Información que NO debe enviarse por seguridad:
+  No se deben enviar nombres completos, números de identificación (cédulas), correos electrónicos, números de teléfono, direcciones físicas ni ningún tipo de dato personal sensible del ciudadano que apoya.
